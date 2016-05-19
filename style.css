@@ -16,36 +16,12 @@ header {
   	padding: 10px;
 }
 
-.header-content-1 {
-  	font-size: 12px;
-  	text-align: right;
+select {
+	font-size: 15px;
 }
 
-.header-address {
-	font-size: 14px;
-	font-weight: 600;
-}
-
-.header-status {
-	font-size: 13px;
-	text-align: center;
-	margin-top: 7px;
-	padding: 6 10px;
-	font-weight: 600;
-	color: #fff;
-	background-color: #404040;
-	border: solid #333 1px;
-}
-
-.logout-button {
-	color:#404040;
-	text-transform: lowercase;
-  	font-size: 12px;
-}
-
-.logout-button:hover,
-.logout-button:active {
-	color:#000;
+button {
+	text-transform: none;
 }
 
 .overview {
@@ -83,10 +59,43 @@ header {
 
 .overview-img {
 	width: 100%;
-	height: 327px;
+	padding-bottom: 60%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.no-feature-image {
+	background-color: #ccc;
+}
+
+.no-feature-image-inner {
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	padding-bottom: 60%;
+}
+
+.add-feature-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: solid #404040 2px;
+	border-radius: 10px;
+	width: 300px;
+	background-color: #A9A9A9;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition:    all 0.2s ease-in-out;
+	-ms-transition:     all 0.2s ease-in-out;
+	-o-transition:      all 0.2s ease-in-out;
+	transition:         all 0.2s ease-in-out;
+}
+
+.add-feature-image:hover,
+.add-feature-image:active {
+	background-color: #8e8e8e;
+	border: solid #404040 2px;
 }
 
 .change-image-mobile {
@@ -103,6 +112,11 @@ header {
     border: none;
     margin:0;
     padding:0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition:    all 0.2s ease-in-out;
+	-ms-transition:     all 0.2s ease-in-out;
+	-o-transition:      all 0.2s ease-in-out;
+	transition:         all 0.2s ease-in-out;
 }
 
 .text-button:hover,
@@ -111,6 +125,33 @@ header {
     border: none;
     margin:0;
     padding:0;
+}
+
+.close.text-button:hover {
+    margin-top: -2px;
+}
+
+.tooltip-primary-button {
+	padding: 7px 17px;
+	background-color: #10A3E7;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition:    all 0.2s ease-in-out;
+	-ms-transition:     all 0.2s ease-in-out;
+	-o-transition:      all 0.2s ease-in-out;
+	transition:         all 0.2s ease-in-out;
+}
+
+.tooltip-primary-button:hover {
+	background-color: #0c6287;
+	border-color: #0c6287;
+}
+
+.tooltip-text-button {
+	color: #a9a9a9;
+}
+
+.tooltip-text-button:hover {
+	color: #000;
 }
 
 .change-image-mobile button {
@@ -229,6 +270,10 @@ header {
 	border-color: #10a3e7;
 }
 
+.upload-images-modal {
+	background-color: #fff;
+}
+
 .listing-contact-info {
 	background-color: #fff;
 	margin-bottom: 50px;
@@ -237,11 +282,6 @@ header {
 
 .listing-contact-info h2 {
 	text-align: center;
-}
-
-.listing-contact-info-section {
-	border: solid #10a3e7 1px;
-	margin: 6px;
 }
 
 .edit-button {
@@ -266,9 +306,16 @@ header {
 	border-top: none;
 }
 
+.listing-contact-info-section {
+	border: solid #10a3e7 1px;
+	margin: 6px;
+	overflow: hidden;
+	font-size: 16px;
+}
+
 .listing-contact-info-section-inner {
 	margin: 20px;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .listing-contact-info-section-inner h3 {
@@ -280,10 +327,6 @@ header {
 	padding: 0 !important;
 }
 
-.listing-contact-info-section {
-	font-size: 16px;
-}
-
 .listing-contact-info-section p {
 	margin-bottom: 15px;
 }
@@ -291,6 +334,13 @@ header {
 .listing-contact-info li {
 	margin-bottom: 23px;
 	line-height: 1.2;
+}
+
+.your-contact-info-subtitle {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #9E9E9E;
 }
 
 .specific-info-section ul {
@@ -304,14 +354,23 @@ header {
 @media screen and (min-width: 992px) {
 	.overview-img {
 		float: left;
+		padding-bottom: 0;
 		width: 400px;
 		height: 327px;
 	}
+
 	.overview-details {
 		float: left;
 		width: calc(100% - 400px);
 	}
 	.change-image-mobile {
 		display: none;
+	}
+	.no-feature-image-inner {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		left: auto;
+		padding-bottom: auto;
 	}
 }

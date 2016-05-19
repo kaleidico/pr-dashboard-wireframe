@@ -8,23 +8,20 @@
 </head>
 <body>
 	<header class="shadow">
-		<div class="header-content-1">
-			<i class="fa fa-user" aria-hidden="true"></i> johndoe <button class="button text-button logout-button">logout</button>
-		</div>
-		<div class="header-content-2">
-			<div class="header-address col-xs-8">
-				<span>4121 Ledgestone Drive</span><br>
-				<span>Troy, MI 48098</span>
-			</div>
-			<div class="header-status col-xs-4">
-				status: draft
-			</div>
-		</div>
+		<a href="#"><img width="360px" src="images/logo.png" /></a>
 	</header>
 	<div class="container">
 		<div class="col-md-9">
 			<div class="overview shadow">
-				<div class="overview-img" style="background-image: url(http://perfectreal.staging.wpengine.com/wp-content/uploads/2016/03/54052-Viar-Drive-Shelby-Twp-Michigan-48315-copy.jpg);"></div>
+				<div class="overview-img no-feature-image">
+					<div class="no-feature-image-inner">
+						<button class="add-feature-image" type="button"  data-toggle="modal" data-target="#upload-featured-image">Add Featured Image</button>
+					</div>
+				</div>
+				<!-- Code for Images
+				<div class="overview-img" style="background-image: url(http://perfectreal.staging.wpengine.com/wp-content/uploads/2016/03/54052-Viar-Drive-Shelby-Twp-Michigan-48315-copy.jpg);">
+				</div>
+				-->
 				<div class="change-image-mobile"><button href="#">Change Featured Image</button></div>
 				<div class="overview-details">
 					<h2>$920,000</h2>
@@ -41,13 +38,14 @@
 			</div><!-- end: overview -->
 			<div class="shadow images-section">
 			 <h2>Images</h2>
-			 <button class="button upload-images-button">Upload Images</button>
+				 <button data-target="#upload-images-modal" data-toggle="modal" class="button upload-images-button">Upload Images
+				 </button>
 			<div class="clearfix"></div>
 				<div class="images-sub-section">
 					<div class="image-container">
 						<img src="http://placehold.it/250x170" />
 						<br>
-						<button class="button move-button">Move</button>
+						<button class="button move-button" data-toggle="popover" data-placement="top">Move</button>
 					</div>
 					<div class="image-container">
 						<img src="http://placehold.it/250x170" />
@@ -97,9 +95,10 @@
 				<h2>Listing and Contact Information</h2>
 				<div class="col-md-6">
 					<div class="listing-contact-info-section">
-						<button class="button edit-button">edit</button>
+						<button class="button edit-button" type="button"  data-toggle="modal" data-target="#edit-contact-info">edit</button>
 						<div class="listing-contact-info-section-inner">
 							<h3>Your Contact Information</h3>
+							<span class="your-contact-info-subtitle">not visible to the public</span>
 							<ul>
 								<li><b>Name:</b><br>John Doe</li>
 								<li><b>Your current address:</b><br>(same as listing address)</li>
@@ -110,7 +109,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="listing-contact-info-section">
-						<button class="button edit-button">edit</button>
+						<button class="button edit-button" type="button" data-toggle="modal" data-target="#edit-listing-home-address">edit</button>
 						<div class="listing-contact-info-section-inner">
 							<h3>Listing Home Address</h3>
 							<span>4121 Ledgstone Dr.</span>
@@ -121,7 +120,7 @@
 				</div>
 				<div class="clearfix"></div>
 				<div class="listing-contact-info-section">
-					<button class="button edit-button">edit</button>
+					<button class="button edit-button" type="button"  data-toggle="modal" data-target="#edit-info-about-listing">edit</button>
 					<div class="listing-contact-info-section-inner">
 						<h3>Information About the Listing</h3>
 						<b>Description:</b>
@@ -145,7 +144,7 @@
 				</div>
 				<div class="clearfix"></div>
 				<div class="specific-info-section listing-contact-info-section">
-					<button class="button edit-button">edit</button>
+					<button class="button edit-button" type="button"  data-toggle="modal" data-target="#edit-specific-property-info">edit</button>
 					<div class="listing-contact-info-section-inner">
 						<h3>Specific Information About the Property</h3>
 						<div class="col-md-6">
@@ -214,6 +213,15 @@
 			</div>
 		</div><!-- end: col-md-3 -->
 	</div><!-- end: container -->
+
+<?php include 'modals-popovers.php' ;?>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
 <!-- Bootstrap Javascript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- Popover Javascript -->
+<script src="script.js"></script>
+
+
 </body>
