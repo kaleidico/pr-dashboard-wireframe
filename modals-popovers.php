@@ -252,10 +252,344 @@
         <button type="button" class="close text-button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="edit-specific-property-infoLabel">Edit: Specific Information About the Property</h4>
       </div>
-      <div class="modal-body">
-        ...
-      </div>
+      	<div class="modal-body">
+        	<span><b>Rooms</b></span>
+        	<div class="clearfix"></div>
+        	<div class="col-xs-6">
+	        	<div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Living Room
+				    </label>
+	  			</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Dinning Room
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Walk-in Closet
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Master Bath
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Family Room
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Storage Space
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Breakfast Nook
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Pantry
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Office
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Basement
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Recreation Room
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Attic
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Library
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Sun Room
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Mud Room
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Workshop
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Solarium/Atrium
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Mother-in-law-Suite
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <span><b>Included Appliances</b></span>
+	        <div class="clearfix"></div>
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Range / Oven
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Refrigerator
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Dishwasher
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Microwave
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Garbage Disposal
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Stainless Steel Appliances
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Freezer
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Trash Compactor
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Washer
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Dryer
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <span><b>Exterior Features</b></span>
+	        <div class="clearfix"></div>
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Private pool
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Balcony, Deck or Patio
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Yard
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Fenced yard
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Lawn
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Pond
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Lake
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Porch
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Garden
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Sprinkler System
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Greenhouse
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <div class="clearfix"></div>
+	        <span><b>Heating &amp; Cooling</b></span>
+	        <div class="clearfix"></div>
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Heat: forced air
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Central A/C
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Air Conditioning
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Ceiling Fans
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Double pane / Storm windows
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <div class="clearfix"></div>
+	        <span><b>Technology Wiring</b></span>
+	        <div class="clearfix"></div>
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Cable-ready
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> High-speed Internet
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Wired
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Intercom system
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <div class="clearfix"></div>
+	        <span><b>Additional Features</b></span>
+	        <div class="clearfix"></div>
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Hardwood floor
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Tile floor
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Granite countertop
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Fireplace
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> High / Vaulted ceiling
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Jacuzzi / Whirlpool
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+	        <div class="col-xs-6">
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Sauna
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Hot tub / Spa
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Skylights
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Jetted tub
+				    </label>
+		  		</div>
+		        <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Wet bar
+				    </label>
+		  		</div>
+		  	</div><!-- end: col-xs-6 -->
+        </div><!-- end: modal-body -->
       <div class="modal-footer">
+      	<hr>
         <button type="button" class="button" data-dismiss="modal">Cancel</button>
         <button type="button" class="button">Update</button>
       </div>

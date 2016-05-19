@@ -35,7 +35,8 @@
 						<li><b>Square Feet:</b> 4,6000</li>
 					</ul>
 				</div><!-- end: overview-details -->
-			</div><!-- end: overview -->
+			</div><!-- end: overview shadow -->
+			<button class="text-button change-image-desktop">Change Featured Image</button>
 			<div class="shadow images-section">
 			 <h2>Images</h2>
 				 <button data-target="#upload-images-modal" data-toggle="modal" class="button upload-images-button">Upload Images
@@ -210,6 +211,9 @@
 			<div class="sidebar2 hidden-xs hidden-sm">
 				<div class="status">status: draft</div>
 				<button href="#" class="button publish-button">Publish</button>
+				<br>
+				<br>
+				<button class="text-button view-listing-button">View Listing</button>
 			</div>
 		</div><!-- end: col-md-3 -->
 	</div><!-- end: container -->

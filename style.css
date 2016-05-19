@@ -107,6 +107,11 @@ button {
 	padding: 10px;
 }
 
+.change-image-desktop {
+	display: none;
+}
+
+
 .text-button {
 	background: none;
     border: none;
@@ -129,6 +134,10 @@ button {
 
 .close.text-button:hover {
     margin-top: -2px;
+}
+
+.view-listing-button:hover {
+	text-decoration: underline;
 }
 
 .tooltip-primary-button {
@@ -284,6 +293,22 @@ button {
 	text-align: center;
 }
 
+.modal-footer {
+	border-top: 0;
+}
+
+.modal-footer hr {
+	margin: 10px -15px;
+	color: #e5e5e5;
+}
+
+.checkbox input[type=checkbox], 
+.checkbox-inline input[type=checkbox], 
+.radio input[type=radio], 
+.radio-inline input[type=radio] {
+	margin-top: 8px;
+}
+
 .edit-button {
 	border-radius: 0;
 	border-left: solid #10a3e7 1px;
@@ -365,6 +390,17 @@ button {
 	}
 	.change-image-mobile {
 		display: none;
+	}
+	.change-image-desktop {
+		display: inline-block;
+	    margin-top: -50px;
+	    margin-left: 118px;
+	}
+	.change-image-desktop:hover {
+		text-decoration: underline;
+		display: inline-block;
+	    margin-top: -50px;
+	    margin-left: 118px;
 	}
 	.no-feature-image-inner {
 		position: relative;
